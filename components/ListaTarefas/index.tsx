@@ -17,6 +17,7 @@ const ListaTarefas = () => {
       <FlatList
         data={tarefas} // Array de dados
         keyExtractor={(item, index) => index.toString()} // Define uma chave única para cada item
+        showsVerticalScrollIndicator={false}
         renderItem={({ item }) => (
           <View style={styles.containerTarefa}>
             <Text style={styles.textTarefa}>{item}</Text>
