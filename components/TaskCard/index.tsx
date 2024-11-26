@@ -11,6 +11,7 @@ const TaskCard = () => {
         style={style.containerCards}
         data={tarefas} // Array de dados
         keyExtractor={(item, index) => index.toString()} // Define uma chave única para cada item
+        showsVerticalScrollIndicator={false} // Desativa a barra de rolagem vertical
         renderItem={({ item }) => (
           <View style={style.cards}>
             {/* Exibição do status da tarefa */}
