@@ -1,8 +1,6 @@
-#
+# Welcome my project
 
-    Welcome my  project
-
-    ![1732651072909](image/README/1732651072909.png)
+![1732651922774](image/README/1732651922774.png)
 
 # Welcome to your Expo app 👋
 
