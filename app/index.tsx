@@ -6,11 +6,14 @@ import Input from "../components/Input";
 import SelecaoCategorias from "../components/SelecaoCategorias";
 import TaskCard from "../components/TaskCard";
 import NavigationBar from "../components/NavigationBar";
+import Modalmenu from "../components/Modalmenu";
 
 export default function Home() {
+  const [showModal, setShowModal] = React.useState(false);
   return (
     <SafeAreaView style={style.container}>
       <Header />
+
       <Input />
       <SelecaoCategorias />
       <TaskCard />

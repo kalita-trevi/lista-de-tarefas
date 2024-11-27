@@ -1,22 +1,11 @@
-import React from "react";
-import { View, Text } from "react-native";
+import React, { useState } from "react";
+import { Modal, View, Text, TouchableOpacity } from "react-native";
+import style from "./style";
+
 const Modalmenu = () => {
   return (
     <View>
-      <View>
-        <Text>Modalmenu</Text>
-      </View>
-
-      <View>
-        <Text>Modalmenu</Text>
-      </View>
-
-      <View>
-        <Text>Modalmenu</Text>
-      </View>
-      <View>
-        <Text>Modalmenu</Text>
-      </View>
+      <Modal />
     </View>
   );
 };
